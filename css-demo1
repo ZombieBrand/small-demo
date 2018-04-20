@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+    }
+    body{
+        background:#fff2e3;
+        color:#87968e;
+    }
+    h1{
+        font-size:42px;
+        text-align:center;
+        margin:30px 0;
+    }
+    p{
+        text-align:center;
+        opacity:0.5;
+
+    }
+    a{
+        text-decoration:none;
+        display:block;
+    }
+    a:hover{
+        opacity:0.7;
+    }
+    ul{
+        list-style:none;
+        text-align:center;
+        margin:40px 0 20px 0;
+    }
+    .clearfix{
+        display:block;
+        content:'';
+        clear:both;
+    }
+    .btn li{
+       display:inline-block;
+    }
+    .btn a{
+        background:#72b890;
+        color:#fff;
+        border-radius:2px;
+        padding:6px 14px;
+        margin:3px;
+    }
+    .image{
+        text-align:center;
+    }
+    img{
+        object-fit: cover;
+        vertical-align:middle;
+    }
+    .footBtn li{
+        display:inline-block;
+    }
+    .footBtn a{
+        background:#72b890;
+        color:#fff;
+        border-radius:2px;
+        padding:6px 14px;
+        margin:3px;
+    }
+    .address{
+        overflow:hidden;
+    }
+    address{
+        text-align:center;
+        margin-top:20px;
+        margin-bottom:5%;
+       /* padding-top:20px;
+        padding-bottom:5%;*/
+    }
+    </style>
+</head>
+<body>
+    <h1>我的项目</h1>
+    <p>一句话项目介绍</p>
+    <ul class="btn">
+        <li><a href="#">项目1</a></li>
+        <li><a href="#">项目2</a></li>
+        <li><a href="#">项目3</a></li>
+        <li><a href="#">项目4</a></li>
+        <li><a href="#">项目5</a></li>
+    </ul> 
+    <div class="image">
+         <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524199115261&di=ecdf89349f9d3e7b1ee959d6d6316ba8&imgtype=0&src=http%3A%2F%2Fwww.ahgame.com%2Fuploads%2Fallimg%2F161125%2F101586-1611251624180-L.jpg" alt="展示图片" width="400" height="300">
+    </div>
+   
+    <ul class="footBtn">
+        <li><a href="">查看源码</a></li>
+        <li><a href="">使用说明</a></li>
+    </ul>
+    <div class="address">
+    <address class="no-collapse">作者:车勇志</address>
+    </div>
+</body>
+</html>
