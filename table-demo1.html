@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>table-demo1</title>
+  <style>
+    body{
+  font-family:arial
+}
+.box{
+   margin:0 auto;
+   width:600px;
+   margin-top:50px;
+}
+table{
+  text-align:left;
+  width:100%;
+  border-collapse: collapse;
+  margin-top:50px;
+}
+tbody>tr>td{
+  padding:8px;
+}
+tbody tr{
+  border-bottom:1px solid #ddd;
+}
+tbody>tr:nth-child(even){
+  background-color:#f1f1f1; 
+}
+tbody{border:1px solid #ddd}
+table .oneTable th{
+  background:#4CAF50;
+  color:white;
+  padding:8px;
+  
+}
+.twoTable{
+  border:none;
+}
+.twoTable th{
+  padding:8px;
+}
+
+  </style>
+</head>
+<body>
+<div class="box">
+  <table>
+    <tbody class="oneTable">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>points</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>     
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>     
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>67</td>     
+      </tr>
+      <tr>
+        <td>Bo</td>
+        <td>Nilsson</td>
+        <td>50</td>     
+      </tr>
+    <tr>
+        <td>Mike</td>
+        <td>Ross</td>
+        <td>35</td>     
+      </tr>
+    </tbody>
+    </table>
+    <table>
+    <tbody class="twoTable">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>points</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>     
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>     
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+        <td>67</td>     
+      </tr>
+      <tr>
+        <td>Bo</td>
+        <td>Nilsson</td>
+        <td>50</td>     
+      </tr>
+    <tr>
+        <td>Mike</td>
+        <td>Ross</td>
+        <td>35</td>     
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>
